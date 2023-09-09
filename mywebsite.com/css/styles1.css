@@ -1,0 +1,48 @@
+h1 ,
+header { text-align: center;
+  font-size: 40px
+  
+}
+
+:root {
+  background-color: gray;
+  color: white; 
+  font-family: Arial;
+  display: grid;
+
+}
+ 
+  .grid {
+display: grid;
+grid-template-areas: 
+"header header header"
+"main main main"
+"footer footer footer";
+  border: 1px solid;
+}
+
+
+
+.substack {
+  width: 19em;
+   height: 16em;
+}
+
+.sms {
+  text-align: left;
+}
+
+.pfp {
+   display: flex;
+  position:relative;
+  align-items: center; 
+  margin-left:575px;
+}
+
+span {
+  padding:200px
+}
+
+.intro {
+  text-align: center;
+}
